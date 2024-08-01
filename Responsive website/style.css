@@ -1,0 +1,120 @@
+css
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+      transition: background-color 0.3s;
+  }
+
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  nav ul li {
+      margin: 0 15px;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 15px 20px;
+      display: block;
+      transition: color 0.3s, background-color 0.3s;
+  }
+
+  nav ul li a:hover {
+      background-color: #555;
+      color: white;
+  }
+
+  nav.scrolled {
+      background-color: #222;
+  }
+
+  section {
+      padding: 100px 20px;
+      min-height: 100vh;
+  }
+
+  #home {
+    background: #f4f4f4;
+    background-image: url('office1.jpg');
+    background-image: 100%;
+    background-size: cover;
+}
+  .div1{
+    background: rgba(255, 255, 255, 0.1); /* Add a semi-transparent overlay */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+
+  }
+  #about {
+    background: #e2e2e2;
+    height:100%;
+    background-image: url('office2.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+ }
+
+  .div2{
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1); /* Add a semi-transparent overlay */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+  }
+  #services { 
+    background: #cfcfcf;
+    height:100%;
+    background-image: url('office3.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+ }
+
+ .div3{
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1); /* Add a semi-transparent overlay */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+  }
+
+
+  #contact{
+    background: #bcbcbc;
+    height:100%;
+    background-image: url('contact_us.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;    
+  }
+  .div4{
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1); /* Add a semi-transparent overlay */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+  }
